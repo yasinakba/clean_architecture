@@ -9,7 +9,7 @@ class GetUsers extends UseCaseWithOutParams<List<User>>{
   const GetUsers(this._repository);
   @override
   ResultFuture<List<User>> call() async{
-    return ;
+    throw UnimplementedError();
   }
 
 }
